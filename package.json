@@ -1,0 +1,30 @@
+{
+  "name": "json-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "upload": "node ./scripts/loadFinal",
+    "mkdir-dist": "mkdirp ./dist",
+    "build:upload": "npm run build && npm run upload",
+    "openfile": "node ./scripts/openFileOnServer",
+    "build-es5": "npm run mkdir-dist && npm run regenerator && npm run browserify-es5 && npm run minify-es5"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jsonata": "^1.8.4",
+    "open": "^7.3.0",
+    "parcel-plugin-inliner": "^1.0.16",
+    "regenerator": "^0.14.7"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.5",
+    "posthtml": "^0.13.4",
+    "posthtml-inline-assets": "^3.1.0"
+  }
+}
