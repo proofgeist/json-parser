@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel public/index.html",
     "build": "parcel build public/index.html",
-    "upload": "node ./scripts/loadFinal",
+    "upload": "node ./scripts/upload",
     "mkdir-dist": "mkdirp ./dist",
     "build:upload": "npm run build && npm run upload",
     "openfile": "node ./scripts/openFileOnServer",
