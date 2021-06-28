@@ -1,0 +1,11 @@
+﻿Timestamp	Filename	Error	Message
+2021-05-30 17:56:42.068 -0400	JSONParser.fmp12	0	Import of script steps from clipboard started
+2021-05-30 17:56:42.072 -0400	UploadToParserHTML	0	script steps imported : 19
+2021-05-30 17:56:42.072 -0400	JSONParser.fmp12	0	Import completed
+2021-05-30 17:57:39.219 -0400	JSONParser.fmp12	0	Import of script steps from clipboard started
+2021-05-30 17:57:39.220 -0400	UploadToParserHTML::23::Read from Data File	102	Field “HTML” missing.
+2021-05-30 17:57:39.220 -0400	UploadToParserHTML	0	script steps imported : 4
+2021-05-30 17:57:39.221 -0400	JSONParser.fmp12	0	Import completed
+2021-05-30 22:00:32.303 -0400	JSONParser.fmp12	0	Import of script steps from clipboard started
+2021-05-30 22:00:32.304 -0400	Simple Query	0	script steps imported : 1
+2021-05-30 22:00:32.305 -0400	JSONParser.fmp12	0	Import completed
